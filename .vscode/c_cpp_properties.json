@@ -1,0 +1,46 @@
+{
+    "configurations": [
+        {
+            "name": "STM32",
+            "includePath": [
+                "${workspaceFolder}/**",
+                // "${workspaceFolder}/Middlewares/**",
+                // "${workspaceFolder}/Middlewares/Third_Party/FreeRTOS/Source/",
+                // "${workspaceFolder}/Middlewares/Third_Party/FreeRTOS/Source/CMSIS_RTOS_V2/",
+                // "${workspaceFolder}/Middlewares/Third_Party/FreeRTOS/Source/include/",
+                // "${workspaceFolder}/Middlewares/Third_Party/FreeRTOS/Source/portable/",
+                // "${workspaceFolder}/Middlewares/Third_Party/FreeRTOS/Source/portable/MemMang",
+                // "${workspaceFolder}/Middlewares/Third_Party/FreeRTOS/Source/portable/RVDS/ARM_CM4F",
+                "D:\\keil5\\ARM\\ARMCC\\**"
+                // "${workspaceFolder}/Middlewares/Third_Party/FreeRTOS/Source/CMSIS_RTOS_V2"
+            ],
+            "browse": {
+                "limitSymbolsToIncludedHeaders": false,
+                "databaseFilename": "${workspaceRoot}/.vscode/.browse.c_cpp.db",
+                "path": [
+                    "D:\\keil5\\ARM\\ARMCC\\**",
+                    "${workspaceFolder}/**"
+                    // "./Middlewares/**",
+                    // "${workspaceFolder}/Middlewares/Third_Party/FreeRTOS/Source/",
+                    // "${workspaceFolder}/Middlewares/Third_Party/FreeRTOS/Source/CMSIS_RTOS_V2/",
+                    // "${workspaceFolder}/Middlewares/Third_Party/FreeRTOS/Source/include/",
+                    // "${workspaceFolder}/Middlewares/Third_Party/FreeRTOS/Source/portable/",
+                    // "${workspaceFolder}/Middlewares/Third_Party/FreeRTOS/Source/portable/MemMang",
+                    // "${workspaceFolder}/Middlewares/Third_Party/FreeRTOS/Source/portable/RVDS/ARM_CM4F"
+                ]
+            },
+            "defines": [
+                "_DEBUG",
+                "UNICODE",
+                "_UNICODE",
+                "__CC_ARM",
+                "USE_STDPERIPH_DRIVER",
+                "STM32F103xE",
+                "USE_HAL_DRIVER",
+                "USE_FULL_ASSERT"
+            ],
+            "intelliSenseMode": "msvc-x64"
+        }
+    ],
+    "version": 4
+}

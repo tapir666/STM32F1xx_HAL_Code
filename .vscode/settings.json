@@ -1,0 +1,19 @@
+{
+      "fileheader.configObj": {
+      "autoAdd": false, // 关闭函数头注释
+    },
+    // 函数注释
+    "fileheader.cursorMode": {
+        "description": "", // 函数注释生成之后，光标移动到这里
+        "param": "", // param 开启函数参数自动提取 需要将光标放在函数行或者函数上方的空白行
+        "return": "",
+    },
+    "files.associations": {
+      "stm32f4xx.h": "c"
+    },
+    "files.encoding": "gb2312",	//默认文件打开的编码为中文简体 GB2312
+    "editor.detectIndentation": false,
+    "editor.tabSize": 2,
+    "cmake.sourceDirectory": "D:/CS2619F_STM32/STM324XX_HAL_RTOS_CODE/DEMO/Drivers/CMSIS/NN" //默认TAB键为2个空格
+    
+}

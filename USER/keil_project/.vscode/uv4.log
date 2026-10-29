@@ -1,0 +1,15 @@
+*** Using Compiler 'V5.06 update 5 (build 528)', folder: 'D:\keil5\ARM\ARMCC\Bin'
+Build target 'stm32f1xx_HAL'
+compiling oled.c...
+..\..\SYSTEM\oled.c(171): warning:  #186-D: pointless comparison of unsigned integer with zero
+  	if((x1<0)||(x2>128)||(y1<0)||(y2>64)||(x1>x2)||(y1>y2))return;
+..\..\SYSTEM\oled.c(171): warning:  #186-D: pointless comparison of unsigned integer with zero
+  	if((x1<0)||(x2>128)||(y1<0)||(y2>64)||(x1>x2)||(y1>y2))return;
+..\..\SYSTEM\oled.c(170): warning:  #177-D: variable "y0"  was declared but never referenced
+  	u8 i,k,k1,k2,y0;
+..\..\SYSTEM\oled.c: 3 warnings, 0 errors
+linking...
+Program Size: Code=3932 RO-data=284 RW-data=1040 ZI-data=2784  
+FromELF: creating hex file...
+".\Objects\STM32F1xx_HAL.axf" - 0 Error(s), 3 Warning(s).
+Build Time Elapsed:  00:00:01
